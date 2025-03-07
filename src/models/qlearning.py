@@ -63,4 +63,3 @@ class QLearningAgent:
             state = self.move(state, action)
             path.append(state)
         return path
-    
